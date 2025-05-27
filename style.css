@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+/* Variáveis */
+:root {
+    --primary-color: #afffbe;
+    --secondary-color: #acfdb0;
+    --text-color: #000a00;
+    --background-color: #d5f8be;
+    --button-hover: #3c5a3c;
+    --font-body: "Quicksand", sans-serif;;
+    --font-titulo: "Rakkas", serif;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+
+/* Corpo da página */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+h3 {
+    margin-top: 25px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 90%;
+}
