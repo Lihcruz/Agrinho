@@ -4,9 +4,9 @@
 :root {
     --primary-color: #afffbe;
     --secondary-color: #acfdb0;
-    --text-color: #000a00;
-    --background-color: #d5f8be;
-    --button-hover: #2c3a2c;
+    --text-color: #000000;
+    --background-color: #e6fcd7;
+    --button-hover: #095000;
     --font-body: "Quicksand", sans-serif;;
     --font-titulo: "Rakkas", serif;
 }
@@ -16,9 +16,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--font-body);
-    color: var(--font-titulo);
+    font-family: var(--font-titulo);
     color: var(--button-hover);
+    font-weight: 700;
 }
 
 /* Corpo da página */
@@ -29,12 +29,27 @@ body {
     line-height: 1.4;
 }
 
-h3 {
+h2 {
     margin-top: 25px;
+    font-family: var(--font-titulo);
+    font-weight: 500;
+    text-align: left;
+    color: var(--button-hover);
+    font-size: 2.2rem;
 }
 
 p {
     margin-top: 20px;
+    font-family: var(--font-body);
+    text-align: justify;
+    font-weight: 300;
+    color: var(--text-color);
+    font-size: 1.1rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
 }
 
 img {
