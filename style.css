@@ -17,13 +17,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--font-body);
+    color: var(--font-titulo);
+    color: var(--button-hover);
 }
 
 /* Corpo da página */
 body {
     background-color: var(--background-color);
-    color: var(--text-color);
-    line-height: 1.6;
+    color: var(--secondary-color);
+    text-align: center;
+    line-height: 1.4;
 }
 
 h3 {
@@ -35,5 +38,5 @@ p {
 }
 
 img {
-    max-width: 90%;
+    max-width: 100%;
 }
